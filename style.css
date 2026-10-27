@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(92, 53, 31, 0.95); /* თბილი ყავისფერი ტონალობა */
+    padding: 20px;
+}
+
+.logo {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.nav-link,
+.btn {
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.loginBtn {
+    background-color: rgb(205, 127, 50); /* ქარვისფერი / ბრინჯაო */
+}
+
+.logoutBtn {
+    background-color: rgb(160, 82, 45); /* სენა / მუქი თუჯისფერი */
+}
+
+/* Starting Section Styles */
+.startingSection {
+    height: 700px;
+    background-image: url('https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1600&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDescription {
+    width: 500px;
+    background-color: rgba(253, 245, 230, 0.92); /* რძისფერი/კრემისფერი ფონი */
+    padding: 30px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.aboutPage {
+    color: #5c351f;
+    margin-top: 0;
+    text-align: center;
+}
+
+.aboutContent {
+    text-align: center;
+    color: #6b4423;
+}
+
+.contactUs {
+    background-color: rgb(210, 105, 30);
+    color: #fff;
+    margin-top: 15px;
+}
+
+/* Images Section Styles */
+.images {
+    padding: 80px;
+    background-color: rgba(244, 228, 193, 0.7);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.catalogImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Login Form Modal Styles */
+.formDiv {
+    width: 300px;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    padding: 30px;
+    background-color: #fdfbf7;
+    border-radius: 14px;
+    display: none; /* დამალულია საწყის ეტაპზე */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    border: 1px solid #d4c5b9;
+    z-index: 1000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    color: #5c351f;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    border-radius: 14px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.emailLogin {
+    background-color: rgb(139, 69, 19);
+    margin: 10px 0;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(50, 30, 18, 0.95);
+    padding: 40px 20px;
+    color: #e6ccb2;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.aboutUs {
+    width: 400px;
+}
+
+.FullcontactInfo {
+    width: 300px;
+}
+
+footer h2 {
+    color: #faedcd;
+    margin-top: 0;
+}
+
+.darkMode {
+    background-color: #d4c5b9;
+    color: #3c2a21;
+    font-weight: bold;
+    margin-top: 10px;
+}
